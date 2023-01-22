@@ -30,11 +30,19 @@ git branch console
 
 git checkout console
 
+Fájlok módosítása a feladatnak megfelelően
+
 git add .
 
 git commit -m "A szükséges módosítások elvégezve incl README fájl"
 
 git status
+
+git checkout main
+
+git merge console
+
+git branch -D console
 
 git remote add origin https://github.com/JPKovacs/gitvizsga0121.git
 
