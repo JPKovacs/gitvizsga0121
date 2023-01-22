@@ -28,7 +28,14 @@ git commit -m "README és gitignore fájlok létrehozva"
 
 git branch console
 
+git checkout console
 
+git add .
 
+git commit -m "A szükséges módosítások elvégezve incl README fájl"
 
+git status
 
+git remote add origin https://github.com/JPKovacs/gitvizsga0121.git
+
+git push -u origin main
