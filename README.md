@@ -20,6 +20,8 @@ git clone https://github.com/szabopeter92/git-vizsga0104
 
 git_vizsga_konyvtar megnyitása Visual Studio Code-ban
 
+cd git-vizsga0104
+
 git add .
 
 git commit -m "README és gitignore fájlok létrehozva"
